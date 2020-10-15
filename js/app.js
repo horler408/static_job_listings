@@ -26,7 +26,7 @@ const jobs = [
   {
     id: 1,
     company: "Manage", 
-    img: "../assets/photosnap.svg",
+    img: "../assets/manage.svg",
     new: "New!",
     feature: "Featured",
     title: "Fullstack Developer",
@@ -41,7 +41,7 @@ const jobs = [
   {
     id: 2,
     company: "Account", 
-    img: "../assets/photosnap.svg",
+    img: "../assets/account.svg",
     new: "New!",
     feature: "",
     title: "Junior Frontend Developer",
@@ -56,7 +56,7 @@ const jobs = [
   {
     id: 3,
     company: "MyHome",
-    img: "../assets/photosnap.svg",
+    img: "../assets/myhome.svg",
     new: "",
     feature: "",
     title: "Junior Frontend Developer",
@@ -71,7 +71,7 @@ const jobs = [
   {
     id: 4,
     company: "Loop Studios", 
-    img: "../assets/photosnap.svg",
+    img: "../assets/loop-studios.svg",
     new: "",
     feature: "",
     title: "Software Engineer",
@@ -86,7 +86,7 @@ const jobs = [
   {
     id: 5,
     company: "FaceIt", 
-    img: "../assets/photosnap.svg",
+    img: "../assets/faceit.svg",
     new: "",
     feature: "",
     title: "Junior Backend Developer",
@@ -101,7 +101,7 @@ const jobs = [
   {
     id: 6,
     company: "Shortly", 
-    img: "../assets/photosnap.svg",
+    img: "../assets/shortly.svg",
     new: "",
     feature: "",
     title: "Junior Developer",
@@ -116,7 +116,7 @@ const jobs = [
   {
     id: 7,
     company: "Insure",
-    img: "../assets/photosnap.svg", 
+    img: "../assets/insure.svg", 
     new: "",
     feature: "",
     title: "Junior Frontend Developer",
@@ -131,7 +131,7 @@ const jobs = [
   {
     id: 8,
     company: "Eyecam Co.",
-    img: "../assets/photosnap.svg", 
+    img: "../assets/eyecam-co.svg", 
     new: "",
     feature: "",
     title: "Full Stack Engineer",
@@ -146,7 +146,7 @@ const jobs = [
   {
     id: 9,
     company: "The Air Filter Company",
-    img: "../assets/photosnap.svg", 
+    img: "../assets/the-air-filter-company.svg", 
     new: "",
     feature: "",
     title: "Front-end Dev",
@@ -170,7 +170,8 @@ const displayItems = () => {
     return `<article class="card-item">
       <img src=${job.img} alt="Company Logo" class="card-logo">
       <div class="left-details">
-        <div class="top"><span class="company-name">${job.company}</span><span class="new">New!</span><span class="featured">Featured</span></div>
+        <div class="top">
+          <h3 class="company-name">${job.company}</h3></div>
         <div class="middle">${job.title}</div>
         <div class="bottom"><span class="time">${job.created_at} </span><span class="type">. ${job.type} </span><span class="location">. ${job.location}</span></div>
       </div>
@@ -183,11 +184,12 @@ const displayItems = () => {
   })
   jobCards = jobCards.join("")
   cardContainer.innerHTML = jobCards
+ 
 }
 
 displayItems()
 
 // Preloader
-window.addEventListener("load", () => {
-  preloader.classList.add("hide-preloader");
-});
+// window.addEventListener("load", () => {
+//   preloader.classList.add("hide-preloader");
+// });
