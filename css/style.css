@@ -10,7 +10,7 @@ body {
 }
 
 .nav-bar {
-  min-height: 10vh;
+  min-height: 15vh;
   width: 100%;
   background: url("../assets/bg-header-desktop.svg") center/cover no-repeat;
   background-color: hsl(180, 29%, 50%);
@@ -35,8 +35,9 @@ body {
   width: 100%;
   min-height: 10vh;
   background: #fff;
-  margin: 10px 0;
+  margin: 20px 0;
   padding: 20px;
+  box-shadow: 0px 5px 20px rgb(71, 71, 71);
 }
 
 .card-item img {
@@ -60,7 +61,7 @@ body {
 .right-details {
   position: absolute;
   top: 50px;
-  right: 20px;
+  right: 30px;
   display: flex;
 }
 
