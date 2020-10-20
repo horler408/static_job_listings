@@ -47,7 +47,7 @@ const jobs = [
   {
     id: 3,
     company: "MyHome",
-    img: "../assets/myhome.svg",
+    img: '../assets/myhome.svg',
     new: "",
     feature: "",
     title: "Junior Frontend Developer",
@@ -62,7 +62,7 @@ const jobs = [
   {
     id: 4,
     company: "Loop Studios", 
-    img: "../assets/loop-studios.svg",
+    img: '../assets/loop-studios.svg',
     new: "",
     feature: "",
     title: "Software Engineer",
@@ -77,7 +77,7 @@ const jobs = [
   {
     id: 5,
     company: "FaceIt", 
-    img: "../assets/faceit.svg",
+    img: '../assets/faceit.svg',
     new: "",
     feature: "",
     title: "Junior Backend Developer",
@@ -92,7 +92,7 @@ const jobs = [
   {
     id: 6,
     company: "Shortly", 
-    img: "../assets/shortly.svg",
+    img: '../assets/shortly.svg',
     new: "",
     feature: "",
     title: "Junior Developer",
@@ -107,7 +107,7 @@ const jobs = [
   {
     id: 7,
     company: "Insure",
-    img: "../assets/insure.svg", 
+    img: '../assets/insure.svg',
     new: "",
     feature: "",
     title: "Junior Frontend Developer",
@@ -122,7 +122,7 @@ const jobs = [
   {
     id: 8,
     company: "Eyecam Co.",
-    img: "../assets/eyecam-co.svg", 
+    img: '../assets/eyecam-co.svg',
     new: "",
     feature: "",
     title: "Full Stack Engineer",
@@ -137,7 +137,7 @@ const jobs = [
   {
     id: 9,
     company: "The Air Filter Company",
-    img: "../assets/the-air-filter-company.svg", 
+    img: '../assets/the-air-filter-company.svg',
     new: "",
     feature: "",
     title: "Front-end Dev",
@@ -148,7 +148,7 @@ const jobs = [
     level: "Junior",
     languages: ["Javascript"],
     tools: ["React", "Sass"]
-  },
+  }
 ]
 
 // Accessing DOM
