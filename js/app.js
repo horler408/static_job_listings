@@ -199,3 +199,4 @@ displayItems()
 window.addEventListener('load', () => {
   preloader.classList.add('hide-preloader')
 })
+
