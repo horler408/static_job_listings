@@ -10,18 +10,18 @@ page=1👍
 const jobs = [
   {
     id: 0,
-    company: "Photosnap",
-    img: "../assets/photosnap.svg",
-    new: "New!",
-    feature: "Featured",
-    title: "Senior Frontend Developer",
-    created_at: "1d ago",
-    type: "Part Time",
-    location: "Remote",
-    role: "Frontend",
-    level: "Senior",
-    languages: ["HTML", "CSS", "Javascript"],
-    tools: ["React", "Sass"]
+    company: 'Photosnap',
+    img: '../assets/photosnap.svg',
+    new: 'New!',
+    feature: 'Featured',
+    title: 'Senior Frontend Developer',
+    created_at: '1d ago',
+    type: 'Part Time',
+    location: 'Remote',
+    role: 'Frontend',
+    level: 'Senior',
+    languages: ['HTML', 'CSS', 'Javascript'],
+    tools: ['React', 'Sass']
   },
   {
     id: 1,
@@ -160,14 +160,13 @@ const jobs = [
   },
 ]
 
-//Accessing DOM
-const count = document.querySelector('.count')
+// Accessing DOM
 const cardContainer = document.querySelector('.main__cards');
 const preloader = document.querySelector('.preloader')
 
 const displayItems = () => {
   let jobCards = jobs.map(job => {
-    return `<article class="card-item">
+    return `<article class="card_item">
       <img src=${job.img} alt="Company Logo" class="card-logo">
       <div class="left-details">
         <div class="top">
@@ -182,14 +181,21 @@ const displayItems = () => {
       </div>
     </article>`
   })
-  jobCards = jobCards.join("")
+  jobCards = jobCards.join('')
   cardContainer.innerHTML = jobCards
- 
 }
 
 displayItems()
 
+// function getLanguage (languages) {
+//   if(typeof languages === array) {
+
+//   }
+//   const language = languages.split(',')
+//   return language
+// }
+
 // Preloader
 // window.addEventListener("load", () => {
 //   preloader.classList.add("hide-preloader");
-// });
+// })
