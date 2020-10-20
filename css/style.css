@@ -37,17 +37,6 @@ body {
   margin: 0 10px;
   background: hsl(180, 52%, 96%);
 }
-/* .form_filter button {
-  width: 30%;
-  height: 40px;
-  font-size: 1rem;
-  outline: none;
-  border: none;
-  color: #fff;
-  cursor: pointer;
-  border-radius: 5px;
-  background: hsl(180, 29%, 50%);
-} */
 
 .main {
   height: 250vh;
@@ -136,6 +125,25 @@ body {
   padding: 5px auto;
 }
 
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  visibility: visible;
+  z-index: 999;
+  transition: all 0.3s linear;
+}
+.hide-preloader {
+  z-index: -999;
+  visibility: hidden;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -159,14 +167,11 @@ body {
     font-size: 1.5rem;
     margin: 0 20px;
   }
-  /* .form_filter button {
-    width: 10%;
-  } */
 
   .card_item {
     position: relative;
     width: 100%;
-    min-height: 10vh;
+    min-height: 20vh;
   }
 
   .card_item img {

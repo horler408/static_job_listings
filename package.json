@@ -1,0 +1,22 @@
+{
+  "name": "static_job_listings",
+  "version": "1.0.0",
+  "description": "A mobile first site that shows the static details of a typical github job listings\r <img src=\"https://github.com/horler408/static_job_listings/blob/gh-pages/assets/desktop-preview.jpg\" />",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/horler408/static_job_listings.git"
+  },
+  "author": "HorlerTech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/horler408/static_job_listings/issues"
+  },
+  "homepage": "https://github.com/horler408/static_job_listings#readme",
+  "dependencies": {
+    "spinkit": "^2.0.1"
+  }
+}

@@ -163,7 +163,6 @@ const jobs = [
 // Accessing DOM
 const cardContainer = document.querySelector('.main__cards')
 const preloader = document.querySelector('.preloader')
-//const form = document.querySelector('.form_filter')
 const search = document.getElementById('search')
 
 search.addEventListener('keyup', () => {
@@ -205,15 +204,7 @@ const displayItems = () => {
 
 displayItems()
 
-// function getLanguage (languages) {
-//   if(typeof languages === array) {
-
-//   }
-//   const language = languages.split(',')
-//   return language
-// }
-
 // Preloader
-// window.addEventListener("load", () => {
-//   preloader.classList.add("hide-preloader");
-// })
+window.addEventListener('load', () => {
+  preloader.classList.add('hide-preloader')
+})
