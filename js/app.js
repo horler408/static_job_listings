@@ -1,12 +1,3 @@
-/*Parameters
-description — A search term, such as "ruby" or "java". This parameter is aliased to search.
-location — A city name, zip code, or other location search term.
-lat — A specific latitude. If used, you must also send long and must not send location.
-long — A specific longitude. If used, you must also send lat and must not send location.
-full_time — If you want to limit results to full time positions set this parameter to 'true'.
-page=1👍
-*/
-
 const jobs = [
   {
     id: 0,
@@ -25,18 +16,18 @@ const jobs = [
   },
   {
     id: 1,
-    company: "Manage", 
-    img: "../assets/manage.svg",
-    new: "New!",
-    feature: "Featured",
-    title: "Fullstack Developer",
-    created_at: "1d ago",
-    type: "Part Time",
-    location: "Remote",
-    role: "Fullstack",
-    level: "Midweight",
-    languages: ["Python"],
-    tools: "React"
+    company: 'Manage', 
+    img: '../assets/manage.svg',
+    new: 'New!',
+    feature: 'Featured',
+    title: 'Fullstack Developer',
+    created_at: '1d ago',
+    type: 'Part Time',
+    location: 'Remote',
+    role: 'Fullstack',
+    level: 'Midweight',
+    languages: ['Python'],
+    tools: 'React'
   },
   {
     id: 2,
