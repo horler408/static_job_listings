@@ -166,8 +166,7 @@ const preloader = document.querySelector('.preloader')
 //const form = document.querySelector('.form_filter')
 const search = document.getElementById('search')
 
-search.addEventListener('keyup', (e) => {
-  e.preventDefault()
+search.addEventListener('keyup', () => {
   const searchInp = search.value.toLowerCase()
   const name = jobs.filter(job => {
     if (job.location.toLowerCase() === searchInp ||
