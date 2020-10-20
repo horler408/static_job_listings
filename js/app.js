@@ -16,6 +16,20 @@ const jobs = [
   },
   {
     id: 1,
+<<<<<<< HEAD
+    company: 'Manage', 
+    img: '../assets/manage.svg',
+    new: 'New!',
+    feature: 'Featured',
+    title: 'Fullstack Developer',
+    created_at: '1d ago',
+    type: 'Part Time',
+    location: 'Remote',
+    role: 'Fullstack',
+    level: 'Midweight',
+    languages: ['Python'],
+    tools: 'React'
+=======
     company: "Manage",
     img: 'https://github.com/horler408/static_job_listings/blob/gh-pages/assets/manage.svg',
     new: "New!",
@@ -28,6 +42,7 @@ const jobs = [
     level: "Midweight",
     languages: ["Python"],
     tools: "React"
+>>>>>>> bbd8e3e8290b87da3758e3748a36a505f040730c
   },
   {
     id: 2,
@@ -199,3 +214,4 @@ displayItems()
 window.addEventListener('load', () => {
   preloader.classList.add('hide-preloader')
 })
+
