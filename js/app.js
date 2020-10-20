@@ -2,7 +2,7 @@ const jobs = [
   {
     id: 0,
     company: 'Photosnap',
-    img: '../blob/gh-pages/assets/photosnap.svg',
+    img: 'https://horler408.github.io/static_job_listings/blob/gh-pages/assets/photosnap.svg',
     new: 'New!',
     feature: 'Featured',
     title: 'Senior Frontend Developer',
