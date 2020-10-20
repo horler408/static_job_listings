@@ -11,7 +11,7 @@ const jobs = [
   {
     id: 0,
     company: 'Photosnap',
-    img: '../assets/photosnap.svg',
+    img: 'https://github.com/horler408/static_job_listings/blob/gh-pages/assets/photosnap.svg',
     new: 'New!',
     feature: 'Featured',
     title: 'Senior Frontend Developer',
@@ -25,8 +25,8 @@ const jobs = [
   },
   {
     id: 1,
-    company: "Manage", 
-    img: "../assets/manage.svg",
+    company: "Manage",
+    img: 'https://github.com/horler408/static_job_listings/blob/gh-pages/assets/manage.svg',
     new: "New!",
     feature: "Featured",
     title: "Fullstack Developer",
@@ -41,7 +41,7 @@ const jobs = [
   {
     id: 2,
     company: "Account", 
-    img: "../assets/account.svg",
+    img: "https://github.com/horler408/static_job_listings/blob/gh-pages/assets/account.svg",
     new: "New!",
     feature: "",
     title: "Junior Frontend Developer",
@@ -56,7 +56,7 @@ const jobs = [
   {
     id: 3,
     company: "MyHome",
-    img: "../assets/myhome.svg",
+    img: 'https://github.com/horler408/static_job_listings/blob/gh-pages/assets/myhome.svg',
     new: "",
     feature: "",
     title: "Junior Frontend Developer",
@@ -71,7 +71,7 @@ const jobs = [
   {
     id: 4,
     company: "Loop Studios", 
-    img: "../assets/loop-studios.svg",
+    img: 'https://github.com/horler408/static_job_listings/blob/gh-pages/assets/loop-studios.svg',
     new: "",
     feature: "",
     title: "Software Engineer",
@@ -86,7 +86,7 @@ const jobs = [
   {
     id: 5,
     company: "FaceIt", 
-    img: "../assets/faceit.svg",
+    img: 'https://github.com/horler408/static_job_listings/blob/gh-pages/assets/faceit.svg',
     new: "",
     feature: "",
     title: "Junior Backend Developer",
@@ -101,7 +101,7 @@ const jobs = [
   {
     id: 6,
     company: "Shortly", 
-    img: "../assets/shortly.svg",
+    img: 'https://github.com/horler408/static_job_listings/blob/gh-pages/assets/shortly.svg',
     new: "",
     feature: "",
     title: "Junior Developer",
@@ -116,7 +116,7 @@ const jobs = [
   {
     id: 7,
     company: "Insure",
-    img: "../assets/insure.svg", 
+    img: 'https://github.com/horler408/static_job_listings/blob/gh-pages/assets/insure.svg',
     new: "",
     feature: "",
     title: "Junior Frontend Developer",
@@ -131,7 +131,7 @@ const jobs = [
   {
     id: 8,
     company: "Eyecam Co.",
-    img: "../assets/eyecam-co.svg", 
+    img: 'https://github.com/horler408/static_job_listings/blob/gh-pages/assets/eyecam-co.svg',
     new: "",
     feature: "",
     title: "Full Stack Engineer",
@@ -146,7 +146,7 @@ const jobs = [
   {
     id: 9,
     company: "The Air Filter Company",
-    img: "../assets/the-air-filter-company.svg", 
+    img: 'https://github.com/horler408/static_job_listings/blob/gh-pages/assets/the-air-filter-company.svg',
     new: "",
     feature: "",
     title: "Front-end Dev",
