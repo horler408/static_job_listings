@@ -161,8 +161,27 @@ const jobs = [
 ]
 
 // Accessing DOM
-const cardContainer = document.querySelector('.main__cards');
+const cardContainer = document.querySelector('.main__cards')
 const preloader = document.querySelector('.preloader')
+//const form = document.querySelector('.form_filter')
+const search = document.getElementById('search')
+
+search.addEventListener('keyup', (e) => {
+  e.preventDefault()
+  const searchInp = search.value.toLowerCase()
+  const name = jobs.filter(job => {
+    if (job.location.toLowerCase() === searchInp ||
+      job.role.toLowerCase() === searchInp) {
+      return job
+    }
+  })
+  if (searchInp === '') {
+    displayItems(jobs)
+    searchInp.value = ''
+  } else {
+    displayItems(name)
+  }
+})
 
 const displayItems = () => {
   let jobCards = jobs.map(job => {
