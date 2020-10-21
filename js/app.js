@@ -156,23 +156,7 @@ const cardContainer = document.querySelector('.main__cards')
 const preloader = document.querySelector('.preloader')
 const search = document.getElementById('search')
 
-search.addEventListener('keyup', () => {
-  const searchInp = search.value.toLowerCase()
-  const name = jobs.filter(job => {
-    if (job.location.toLowerCase() === searchInp ||
-      job.role.toLowerCase() === searchInp) {
-      return job
-    }
-  })
-  if (searchInp === '') {
-    displayItems(jobs)
-    searchInp.value = ''
-  } else {
-    displayItems(name)
-  }
-})
-
-const displayItems = () => {
+const displayItems = (jobs) => {
   let jobCards = jobs.map(job => {
     return `<article class="card_item">
       <img src=${job.img} alt="Company Logo" class="card-logo">
@@ -193,10 +177,25 @@ const displayItems = () => {
   cardContainer.innerHTML = jobCards
 }
 
-displayItems()
+search.addEventListener('keyup', () => {
+  const searchInp = search.value.toLowerCase()
+  const name = jobs.filter(job => {
+    if (job.location.toLowerCase() === searchInp ||
+      job.role.toLowerCase() === searchInp) {
+      return job
+    }
+  })
+  if (searchInp === '') {
+    displayItems(jobs)
+    searchInp.value = ''
+  } else {
+    displayItems(name)
+  }
+})
+
+displayItems(jobs)
 
 // Preloader
 window.addEventListener('load', () => {
   preloader.classList.add('hide-preloader')
 })
-
