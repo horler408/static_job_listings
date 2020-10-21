@@ -52,7 +52,7 @@ body {
   min-height: 45vh;
   background: #fff;
   margin: 50px auto;
-  border-left: 5px solid hsl(180, 29%, 50%);
+  border-left: 3px solid hsl(180, 29%, 50%);
   padding: 20px;
   box-shadow: 0px 5px 20px rgb(71, 71, 71);
 }
@@ -89,7 +89,6 @@ body {
 }
 
 .middle {
-  color: hsl(180, 29%, 50%);
   margin: 10px 0;
   font-weight: bold;
 }
@@ -112,17 +111,6 @@ body {
 .level:hover {
   color: #fff;
   background: hsl(180, 29%, 50%);
-}
-.role {
-  width: 80px;
-  border-radius: 5px;
-}
-.level {
-  width: 60px;
-}
-.languages {
-  width: 100px;
-  padding: 5px auto;
 }
 
 .preloader {
