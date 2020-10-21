@@ -186,21 +186,6 @@ body {
     border-top: none;
   }
 
-  .top {
-    color: hsl(180, 29%, 50%);
-    margin: 5px 0;
-  }
-
-  .middle {
-    color: hsl(180, 29%, 50%);
-    margin: 5px 0;
-    font-weight: bold;
-  }
-  .bottom {
-    color: grey;
-    margin: 5px 0;
-  }
-
   .role,
   .level,
   .languages {
