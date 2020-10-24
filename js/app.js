@@ -180,8 +180,8 @@ const displayItems = (jobs) => {
 search.addEventListener('keyup', () => {
   const searchInp = search.value.toLowerCase()
   const name = jobs.filter(job => {
-    if (job.location.toLowerCase() === searchInp ||
-      job.role.toLowerCase() === searchInp) {
+    if (job.location.toLowerCase().includes(searchInp) ||
+      job.role.toLowerCase().includes(searchInp)) {
       return job
     }
   })
